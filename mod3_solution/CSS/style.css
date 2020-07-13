@@ -1,0 +1,85 @@
+.navbar{
+    background-color: #00203FFF;
+}
+.navbar .navbar-brand {
+    font-size: 40px;
+    color: #ADEFD1FF;
+}
+
+h1 {
+    font-size: 40px;
+    padding-bottom: 40px;
+    font-family: 'Roboto','Regular 400';
+    color: rgb(3, 52, 102);
+}
+
+h3 {
+    margin-top: 0px;
+    font-family: 'Roboto','Light 300';
+    color: #ADEFD1FF; 
+}
+.navbar-toggler{
+    background-color: transparent;
+    border-color: #ADEFD1FF;
+    padding: 2px 4px; 
+    visibility: hidden;
+}
+
+button hr{
+    width : 24px;
+    border : 2px solid #ADEFD1FF;
+    border-radius: 2px;
+    margin:6px;
+}
+
+h5{
+    padding-top: 10px;
+    font-family: 'Roboto','Regular 400 italic';
+    color: #ADEFD1FF; 
+}
+
+.jumbotron{
+    padding-top: 20px;
+    background-color:  #00203FFF;
+}
+
+.container{
+    max-width: 100%;
+    padding: 15px;
+}
+
+@media (max-width: 767.98px){
+
+    .navbar-toggler{
+        visibility: visible;
+    }
+
+    button hr{
+        width : 24px;
+        border : 2px solid #ADEFD1FF;
+        border-radius: 2px;
+        margin:6px;
+    }
+    .container{
+        padding: 50px;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: #ADEFD1FF;
+        text-align: center;
+        font-family: 'Roboto','Regular 400 italic';
+    }
+    hr{
+        margin: 0;
+        margin-left: -16px;
+        margin-right: -16px;
+        width : 200%;
+        border : 2px solid #ADEFD1FF;
+        border-radius: 2px;
+    }
+
+    hr:nth-child(6){
+        margin-bottom: 0px;
+
+    }
+}
